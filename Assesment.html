@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Assesment.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="image-container">
+            <!-- <div class="InnerContainer">
+                 <div>
+                    <img src="myimage.jpg" id="myImage" width="180">
+                </div> -->
+               <!-- <div>
+                <img src="image2.jpg">
+               </div>
+               <div>
+                <img src="image1.jpg">
+            </div>
+           <div>
+            <img src="image2.jpg">
+           </div>
+           <div>
+            <img src="image2.jpg">
+           </div> -->          
+        </div>
+        <div class="settings">
+            <!-- <label for="myCheckbox">Hide Image</label> -->
+<!-- <input type="checkbox" id="myCheckbox">Check -->
+<!-- <img src="myimage.jpg" id="myImage" width=100> -->
+
+            <label class="Source">Select Source :</label>
+            <!-- <label for="scanner-devices">Select Source:</label> -->
+            <select id="scanner-devices"></select>
+            <div class="checkbox">
+                <div>
+                    <input type="checkbox" id="myCheckbox">Show UI
+                </div>
+                <div>
+                    <input type="checkbox">Auto Feeder
+                </div>
+            </div>
+            <div class="btn">
+                <div class="btn-inner">
+                    <div>
+                        <label>Pixel Type :</label>
+                    </div>
+                   <div>
+                    <div>
+                        <input type="radio" name="colour">Black & White
+                    </div>
+                    <div>
+                        <input type="radio" name="colour">Gray
+                    </div>
+                    <div>
+                        <input type="radio" name="colour">Color
+                    </div>
+                   </div>
+                   
+                </div>
+
+            </div>
+            <div class="resol-inner">
+                <div><label>Resolution :</label></div>
+                <div><select id="resolution">
+                     <option value="100">100</option>
+                    <option value="90">90</option>
+
+                </select>
+                   
+                </div>
+            </div>
+            <div><button>Scan and Save 1</button></div>
+            <div><button>Scan and Save 2</button></div>
+            <div><button id="remove-blank-images">Remove Blank Image</button></div>
+            <div><button id="removeAll">Remove All Image</button></div>
+           
+        </div>
+    </div>
+
+
+    <script src="./Assesment.js"></script>
+
+</body>
+
+</html>
